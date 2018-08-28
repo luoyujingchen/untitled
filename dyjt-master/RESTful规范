@@ -1,0 +1,16 @@
+==========  ===============================================  =============================
+HTTP 方法   URL                                              动作
+==========  ===============================================  ==============================
+*图片
+GET         http://[hostname]/dyjtpic/api/v1.0/pics             检索图片列表
+GET         http://[hostname]/dyjtpic/api/v1.0/pics/[pic_id]    检索某张图片
+POST        http://[hostname]/dyjtpic/api/v1.0/pic              上传新图片
+PUT         http://[hostname]/dyjtpic/api/v1.0/tasks/[pic_id]   更新图片信息
+DELETE      http://[hostname]/dyjtpic/api/v1.0/tasks/[pic_id]   删除图片
+*菜品信息
+GET         http://[hostname]/dyjtpic/api/v1.0/foods            检索菜品列表
+GET         http://[hostname]/dyjtpic/api/v1.0/foods/[food_id]  检索某个菜品
+POST        http://[hostname]/dyjtpic/api/v1.0/food             新增菜品
+PUT         http://[hostname]/dyjtpic/api/v1.0/tasks/[food_id]  更新菜品信息
+DELETE      http://[hostname]/dyjtpic/api/v1.0/tasks/[food_id]  删除菜品
+==========  ================================================ =============================
